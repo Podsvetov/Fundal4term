@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Labs-master\4sem\fundal\2\2-2\2-2\main.cpp(14,20): warning C4018: '<': signed/unsigned mismatch
+C:\Labs-master\4sem\fundal\2\2-2\2-2\main.cpp(72,21): warning C4018: '<': signed/unsigned mismatch
+  2-2.vcxproj -> C:\Labs-master\4sem\fundal\2\2-2\Debug\2-2.exe

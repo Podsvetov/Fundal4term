@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\Frost\source\repos\2-4(1)\2-4(1)\Entry.h(98,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Frost\source\repos\2-4(1)\2-4(1)\main.cpp(19,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Frost\source\repos\2-4(1)\2-4(1)\main.cpp(173,31): warning C4018: <: несоответствие типов со знаком и без знака
+  2-4(1).vcxproj -> C:\Users\Frost\source\repos\2-4(1)\Debug\2-4(1).exe

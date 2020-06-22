@@ -1,0 +1,10 @@
+﻿  DictWord.cpp
+  Dictionary.cpp
+C:\Users\Xiaomi\Documents\C++\4 семестр\Фан\Lab7\Task1\Dictionary.cpp(81,17): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Generating code
+  2 of 78 functions ( 2.6%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Task1.vcxproj -> C:\Users\Xiaomi\Documents\C++\4 семестр\Фан\Lab7\Release\Task1.exe

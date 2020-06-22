@@ -1,0 +1,16 @@
+void fun1(int x);
+
+#include<files/h.txt>
+
+void main()
+{
+	fun3(1, 2);	
+	return;
+}
+
+void fun1(int x)
+{
+	randStop;
+	fun1(x);
+	return;
+}

@@ -1,0 +1,17 @@
+void fun2(int x, int y);
+void fun3(int a, int b);
+void fun4();
+
+void fun2(int x, int y)
+{
+	randStop;
+	fun3(x, y);
+	return;
+}
+
+int fun3(int a, int b)
+{
+	fun1(a);
+	fun2(b, b);
+	return;
+}
