@@ -1,0 +1,120 @@
+﻿  1.cpp
+C:\Labs-master\4sem\fundal\1\1\1.cpp(254,41): warning C4101: 'e': unreferenced local variable
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2395,23): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2406): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2406): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2386): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2386): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Labs-master\4sem\fundal\1\1\1.cpp(205): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Labs-master\4sem\fundal\1\1\1.cpp(205): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\qwer\boost_1_73_0\boost\algorithm\string\detail\finder.hpp(578,55): warning C4244: 'argument': conversion from 'T' to 'char', possible loss of data
+          with
+          [
+              T=wchar_t
+          ]
+C:\qwer\boost_1_73_0\boost\algorithm\string\concept.hpp(43): message : see reference to function template instantiation 'boost::iterator_range<IteratorT> boost::algorithm::detail::token_finderF<PredicateT>::operator ()<IteratorT>(ForwardIteratorT,ForwardIteratorT) const' being compiled
+          with
+          [
+              IteratorT=wchar_t *,
+              PredicateT=WndProc::<lambda_48c86f6df7750e5ff7f2f056eee7af74>,
+              ForwardIteratorT=wchar_t *
+          ]
+C:\qwer\boost_1_73_0\boost\algorithm\string\concept.hpp(43): message : see reference to function template instantiation 'boost::iterator_range<IteratorT> boost::algorithm::detail::token_finderF<PredicateT>::operator ()<IteratorT>(ForwardIteratorT,ForwardIteratorT) const' being compiled
+          with
+          [
+              IteratorT=wchar_t *,
+              PredicateT=WndProc::<lambda_48c86f6df7750e5ff7f2f056eee7af74>,
+              ForwardIteratorT=wchar_t *
+          ]
+C:\qwer\boost_1_73_0\boost\algorithm\string\concept.hpp(41): message : while compiling class template member function 'void boost::algorithm::FinderConcept<FinderT,wchar_t *>::constraints(void)'
+          with
+          [
+              FinderT=boost::algorithm::detail::token_finderF<WndProc::<lambda_48c86f6df7750e5ff7f2f056eee7af74>>
+          ]
+C:\qwer\boost_1_73_0\boost\concept\detail\has_constraints.hpp(42): message : see reference to class template instantiation 'boost::algorithm::FinderConcept<FinderT,wchar_t *>' being compiled
+          with
+          [
+              FinderT=boost::algorithm::detail::token_finderF<WndProc::<lambda_48c86f6df7750e5ff7f2f056eee7af74>>
+          ]
+C:\qwer\boost_1_73_0\boost\concept\detail\has_constraints.hpp(32): message : see reference to function template instantiation 'boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model *,boost::concepts::detail::wrap_constraints<Model,&Model::constraints> *)' being compiled
+C:\qwer\boost_1_73_0\boost\concept\detail\msvc.hpp(58): message : see reference to class template instantiation 'boost::concepts::not_satisfied<Model>' being compiled
+          with
+          [
+              Model=boost::algorithm::FinderConcept<boost::algorithm::detail::token_finderF<WndProc::<lambda_48c86f6df7750e5ff7f2f056eee7af74>>,wchar_t *>
+          ]
+C:\qwer\boost_1_73_0\boost\algorithm\string\iter_find.hpp(156): message : see reference to class template instantiation 'boost::concepts::require<boost::algorithm::FinderConcept<FinderT,wchar_t *>>' being compiled
+          with
+          [
+              FinderT=boost::algorithm::detail::token_finderF<WndProc::<lambda_48c86f6df7750e5ff7f2f056eee7af74>>
+          ]
+C:\qwer\boost_1_73_0\boost\algorithm\string\split.hpp(161): message : see reference to function template instantiation 'SequenceSequenceT &boost::algorithm::iter_split<SequenceSequenceT,wchar_t*&,boost::algorithm::detail::token_finderF<PredicateT>>(SequenceSequenceT &,RangeT,FinderT)' being compiled
+          with
+          [
+              SequenceSequenceT=std::vector<std::string,std::allocator<std::string>>,
+              PredicateT=WndProc::<lambda_48c86f6df7750e5ff7f2f056eee7af74>,
+              RangeT=wchar_t *&,
+              FinderT=boost::algorithm::detail::token_finderF<WndProc::<lambda_48c86f6df7750e5ff7f2f056eee7af74>>
+          ]
+C:\Labs-master\4sem\fundal\1\1\1.cpp(235): message : see reference to function template instantiation 'SequenceSequenceT &boost::algorithm::split<std::vector<std::string,std::allocator<std::string>>,wchar_t*&,WndProc::<lambda_48c86f6df7750e5ff7f2f056eee7af74>>(SequenceSequenceT &,RangeT,PredicateT,boost::algorithm::token_compress_mode_type)' being compiled
+          with
+          [
+              SequenceSequenceT=std::vector<std::string,std::allocator<std::string>>,
+              RangeT=wchar_t *&,
+              PredicateT=WndProc::<lambda_48c86f6df7750e5ff7f2f056eee7af74>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xutility(5402,19): warning C4244: 'argument': conversion from 'wchar_t' to 'char', possible loss of data
+C:\qwer\boost_1_73_0\boost\algorithm\string\detail\finder.hpp(565): message : see reference to function template instantiation '_InIt std::find_if<ForwardIteratorT,PredicateT>(_InIt,const _InIt,_Pr)' being compiled
+          with
+          [
+              _InIt=wchar_t *,
+              ForwardIteratorT=wchar_t *,
+              PredicateT=WndProc::<lambda_48c86f6df7750e5ff7f2f056eee7af74>,
+              _Pr=WndProc::<lambda_48c86f6df7750e5ff7f2f056eee7af74>
+          ]
+C:\qwer\boost_1_73_0\boost\algorithm\string\concept.hpp(43): message : see reference to function template instantiation 'boost::iterator_range<IteratorT> boost::algorithm::detail::token_finderF<PredicateT>::operator ()<IteratorT>(ForwardIteratorT,ForwardIteratorT) const' being compiled
+          with
+          [
+              IteratorT=wchar_t *,
+              PredicateT=WndProc::<lambda_48c86f6df7750e5ff7f2f056eee7af74>,
+              ForwardIteratorT=wchar_t *
+          ]
+C:\qwer\boost_1_73_0\boost\algorithm\string\concept.hpp(43): message : see reference to function template instantiation 'boost::iterator_range<IteratorT> boost::algorithm::detail::token_finderF<PredicateT>::operator ()<IteratorT>(ForwardIteratorT,ForwardIteratorT) const' being compiled
+          with
+          [
+              IteratorT=wchar_t *,
+              PredicateT=WndProc::<lambda_48c86f6df7750e5ff7f2f056eee7af74>,
+              ForwardIteratorT=wchar_t *
+          ]
+  1.vcxproj -> C:\Labs-master\4sem\fundal\1\1\x64\Debug\1.exe

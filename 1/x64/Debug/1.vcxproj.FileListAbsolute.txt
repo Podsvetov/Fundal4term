@@ -1,0 +1,2 @@
+C:\Labs-master\4sem\fundal\1\1\x64\Debug\1.exe
+C:\Labs-master\4sem\fundal\1\1\x64\Debug\1.pdb
